@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="https://js.stripe.com/v3/"></script>
+    <script defer src="/applepay.js"></script>
+
+    <style>
+        .apple-pay-custom {
+            width: 260px;
+            height: 48px;
+            background: black;
+            border-radius: 12px;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+        }
+        .apple-pay-custom img {
+            width: 75px;
+            margin-left: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<h2>Stripe Apple Pay (Custom Button)</h2>
+
+<div id="applePayButton" class="apple-pay-custom">
+    Buy with <img src="https://developer.apple.com/apple-pay/Apple-Pay-Mark.png" />
+</div>
+
+</body>
+</html>
