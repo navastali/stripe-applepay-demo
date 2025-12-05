@@ -1,4 +1,4 @@
-FROM openjdk:8-jdk-alpine
+FROM eclipse-temurin:8-jdk
 
 WORKDIR /app
 COPY target/applepay-stripe-1.0.0.jar app.jar
