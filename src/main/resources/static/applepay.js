@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", async () => {
-    const stripe = Stripe(window.STRIPE_PUBLISHABLE_KEY);
+    const stripe = Stripe("pk_test_51R6UlNFWphu9xGUZOfwxZTjJ7NJCL8jz9F9LbnKBvfk7apv1RmQ4iW3ZsUMcsRuRxhnQKbnRtaOZdJK0gWJESSGc00rvTxhrDe");
 
     const paymentRequest = stripe.paymentRequest({
         country: "US",
